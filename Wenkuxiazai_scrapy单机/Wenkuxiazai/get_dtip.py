@@ -4,6 +4,8 @@ import re
 import random
 import time
 
+#从这里获取动态ip,这里我使用的是公司的动态ip,这里根据请求动态ip的html解析
+#动态ip很难被封，但是稳定性不如静态ip
 def get_ip():
     ip_req = requests.get("动态ip请求网址")
     # print("1",ip_req.text)
