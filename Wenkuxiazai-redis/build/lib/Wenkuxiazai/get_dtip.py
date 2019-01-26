@@ -4,38 +4,8 @@ import re
 import random
 import time
 
-# def get_ip():
-#     ip_req = requests.get("http://mp.pachongdaili.com/api.php?order=d1546865289")
-#     ip_text = ip_req.text
-#     # print(ip_text.split('</br>'))
-#     ip_list = re.sub(r'\d+s', "",
-#                      ip_text.replace('<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />',
-#                                      "")).replace("\r\n", "").replace("-", "").replace(" ", "").replace(
-#         "</body></html>", "").replace("<html><body>", "").split('</br>')
-#     # print(ip[i])
-#     # print("20", len(ip_list) - 1)
-#     # print(type(ip_list))
-#     # print(ip_proxies)
-#     # print(ip_list)
-#     # i = random.choice(range(len(ip_list) - 1))#在这里不能随机ip
-#     ip_proxies=[]
-#     for i in ip_list[:-1]:
-#         # ip_proxies = 'http://dtip123456:dtip123456@' + ip_list[i] + ':888'
-#         ip_proxie = 'http://dtip123456:dtip123456@' +i+ ':888'
-#         ip_proxies.append(ip_proxie)
-#     return ip_proxies
-headers={'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-'Accept-Encoding': 'gzip, deflate',
-'Accept-Language': 'zh-CN,zh;q=0.9',
-'Cache-Control': 'max-age=0',
-'Connection': 'keep-alive',
-# 'Cookie': 'UM_distinctid=1682c128555128-0f7e7cd0177148-671b1b7c-1fa400-1682c12855610c; CNZZDATA1262639445=1753030362-1546924484-%7C1547002574; Hm_lvt_eee540744c3b30c74bc273b168ccec21=1546927641,1547002580; Hm_lpvt_eee540744c3b30c74bc273b168ccec21=1547002580',
-'Host': 'mp.pachongdaili.com',
-# 'Upgrade-Insecure-Requests': '1',
-'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',}
-
 def get_ip():
-    ip_req = requests.get("http://mp.pachongdaili.com/api.php?order=d1546865289",headers=headers)
+    ip_req = requests.get("动态ip的请求网址1")
     # print("1",ip_req.text)
 
     html = etree.HTML(ip_req.text)
@@ -70,7 +40,7 @@ def get_ip():
         return ip_proxies
 
 def get_ip2():
-    ip_req = requests.get("http://mp.pachongdaili.com/api.php?order=d1546865289",headers=headers)
+    ip_req = requests.get("动态ip的请求网址2")
     # print("1",ip_req.text)
 
     html = etree.HTML(ip_req.text)
