@@ -1,0 +1,342 @@
+2019-01-11 15:00:15 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.wenkuxiazai.com/search/%CE%C4%C0%ED%BD%BB%B2%E6-0.html> (referer: https://www.wenkuxiazai.com/search/%D6%D0%B9%FA%C3%C0%D1%A7%CB%BC%CF%EB-420.html)
+Traceback (most recent call last):
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 102, in parse
+    url = get_url_data(self.index_url, self.keyword, self.page)
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 21, in get_url_data
+    url=index_url+str(urllib.parse.quote(keyword,encoding="gb2312"))+"-"+str(page)+".html"
+  File "D:\python\lib\urllib\parse.py", line 785, in quote
+    string = string.encode(encoding, errors)
+UnicodeEncodeError: 'gb2312' codec can't encode character '\u7d93' in position 2: illegal multibyte sequence
+2019-01-11 15:00:16 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.wenkuxiazai.com/search/%B6%E3%B1%DC%D1%A7%CF%B0-0.html> (referer: https://www.wenkuxiazai.com/search/%D6%D0%B9%FA%C3%C0%D1%A7%CB%BC%CF%EB-450.html)
+Traceback (most recent call last):
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 96, in parse
+    url = get_url_data(self.index_url,self.keyword,self.page)
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 21, in get_url_data
+    url=index_url+str(urllib.parse.quote(keyword,encoding="gb2312"))+"-"+str(page)+".html"
+  File "D:\python\lib\urllib\parse.py", line 785, in quote
+    string = string.encode(encoding, errors)
+UnicodeEncodeError: 'gb2312' codec can't encode character '\u7d93' in position 2: illegal multibyte sequence
+2019-01-11 15:13:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.wenkuxiazai.com/search/%C6%D5%D6%B0%B1%C8-40.html> (referer: https://www.wenkuxiazai.com/search/%B1%DF%BD%E7%BF%F2-0.html)
+Traceback (most recent call last):
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 102, in parse
+    url = get_url_data(self.index_url, self.keyword, self.page)
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 21, in get_url_data
+    url=index_url+str(urllib.parse.quote(keyword,encoding="gb2312"))+"-"+str(page)+".html"
+  File "D:\python\lib\urllib\parse.py", line 785, in quote
+    string = string.encode(encoding, errors)
+UnicodeEncodeError: 'gb2312' codec can't encode character '\u7950' in position 1: illegal multibyte sequence
+2019-01-11 15:13:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.wenkuxiazai.com/search/%D7%E3%B5%D7%B0%B4%C4%A6-0.html> (referer: https://www.wenkuxiazai.com/search/%B1%DF%BD%E7%BF%F2-20.html)
+Traceback (most recent call last):
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 96, in parse
+    url = get_url_data(self.index_url,self.keyword,self.page)
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 21, in get_url_data
+    url=index_url+str(urllib.parse.quote(keyword,encoding="gb2312"))+"-"+str(page)+".html"
+  File "D:\python\lib\urllib\parse.py", line 785, in quote
+    string = string.encode(encoding, errors)
+UnicodeEncodeError: 'gb2312' codec can't encode character '\u7950' in position 1: illegal multibyte sequence
+2019-01-11 15:13:07 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.wenkuxiazai.com/search/%B9%AB%B9%B2%B9%DC%C0%ED%D0%D0%CE%AA-0.html> (referer: https://www.wenkuxiazai.com/search/%C6%D5%D6%B0%B1%C8-10.html)
+Traceback (most recent call last):
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 96, in parse
+    url = get_url_data(self.index_url,self.keyword,self.page)
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 21, in get_url_data
+    url=index_url+str(urllib.parse.quote(keyword,encoding="gb2312"))+"-"+str(page)+".html"
+  File "D:\python\lib\urllib\parse.py", line 785, in quote
+    string = string.encode(encoding, errors)
+UnicodeEncodeError: 'gb2312' codec can't encode character '\u7950' in position 1: illegal multibyte sequence
+2019-01-11 15:14:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.wenkuxiazai.com/search/%B1%AC%D5%A8%D7%B0%D2%A9-80.html> (referer: https://www.wenkuxiazai.com/search/%B1%AC%D5%A8%D7%B0%D2%A9-40.html)
+Traceback (most recent call last):
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 102, in parse
+    url = get_url_data(self.index_url, self.keyword, self.page)
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 21, in get_url_data
+    url=index_url+str(urllib.parse.quote(keyword,encoding="gb2312"))+"-"+str(page)+".html"
+  File "D:\python\lib\urllib\parse.py", line 785, in quote
+    string = string.encode(encoding, errors)
+UnicodeEncodeError: 'gb2312' codec can't encode character '\u8e07' in position 0: illegal multibyte sequence
+2019-01-11 15:14:07 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.wenkuxiazai.com/search/%A1%B6%B0%E0%D6%F7%C8%CE%D6%AE%D3%D1%A1%B7-0.html> (referer: https://www.wenkuxiazai.com/search/%BD%FE%C8%EB%D3%D0%CF%DE%D4%AA-0.html)
+Traceback (most recent call last):
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 96, in parse
+    url = get_url_data(self.index_url,self.keyword,self.page)
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 21, in get_url_data
+    url=index_url+str(urllib.parse.quote(keyword,encoding="gb2312"))+"-"+str(page)+".html"
+  File "D:\python\lib\urllib\parse.py", line 785, in quote
+    string = string.encode(encoding, errors)
+UnicodeEncodeError: 'gb2312' codec can't encode character '\u8e07' in position 0: illegal multibyte sequence
+2019-01-11 15:14:08 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.wenkuxiazai.com/search/%BB%AC%D2%C6%B7%A8-0.html> (referer: https://www.wenkuxiazai.com/search/%B1%AC%D5%A8%D7%B0%D2%A9-90.html)
+Traceback (most recent call last):
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 96, in parse
+    url = get_url_data(self.index_url,self.keyword,self.page)
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 21, in get_url_data
+    url=index_url+str(urllib.parse.quote(keyword,encoding="gb2312"))+"-"+str(page)+".html"
+  File "D:\python\lib\urllib\parse.py", line 785, in quote
+    string = string.encode(encoding, errors)
+UnicodeEncodeError: 'gb2312' codec can't encode character '\u8e07' in position 0: illegal multibyte sequence
+2019-01-11 15:14:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.wenkuxiazai.com/search/%B1%AC%D5%A8%D7%B0%D2%A9-70.html> (referer: https://www.wenkuxiazai.com/search/%B1%AC%D5%A8%D7%B0%D2%A9-30.html)
+Traceback (most recent call last):
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 96, in parse
+    url = get_url_data(self.index_url,self.keyword,self.page)
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 21, in get_url_data
+    url=index_url+str(urllib.parse.quote(keyword,encoding="gb2312"))+"-"+str(page)+".html"
+  File "D:\python\lib\urllib\parse.py", line 785, in quote
+    string = string.encode(encoding, errors)
+UnicodeEncodeError: 'gb2312' codec can't encode character '\u8e07' in position 0: illegal multibyte sequence
+2019-01-11 15:14:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.wenkuxiazai.com/search/%BB%AC%D2%C6%B7%A8-40.html> (referer: https://www.wenkuxiazai.com/search/%B2%DF%C2%D4%D0%D4%C8%CB%C1%A6%D7%CA%D4%B4%B9%DC%C0%ED-40.html)
+Traceback (most recent call last):
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 96, in parse
+    url = get_url_data(self.index_url,self.keyword,self.page)
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 21, in get_url_data
+    url=index_url+str(urllib.parse.quote(keyword,encoding="gb2312"))+"-"+str(page)+".html"
+  File "D:\python\lib\urllib\parse.py", line 785, in quote
+    string = string.encode(encoding, errors)
+UnicodeEncodeError: 'gb2312' codec can't encode character '\u8e07' in position 0: illegal multibyte sequence
+2019-01-11 15:14:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.wenkuxiazai.com/search/%BB%AC%D2%C6%B7%A8-20.html> (referer: https://www.wenkuxiazai.com/search/%C9%E8%CE%CA%BD%CC%D1%A7-10.html)
+Traceback (most recent call last):
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 96, in parse
+    url = get_url_data(self.index_url,self.keyword,self.page)
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 21, in get_url_data
+    url=index_url+str(urllib.parse.quote(keyword,encoding="gb2312"))+"-"+str(page)+".html"
+  File "D:\python\lib\urllib\parse.py", line 785, in quote
+    string = string.encode(encoding, errors)
+UnicodeEncodeError: 'gb2312' codec can't encode character '\u8e07' in position 0: illegal multibyte sequence
+2019-01-11 15:14:11 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.wenkuxiazai.com/search/%BB%AC%D2%C6%B7%A8-10.html> (referer: https://www.wenkuxiazai.com/search/%C9%E8%CE%CA%BD%CC%D1%A7-0.html)
+Traceback (most recent call last):
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 96, in parse
+    url = get_url_data(self.index_url,self.keyword,self.page)
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 21, in get_url_data
+    url=index_url+str(urllib.parse.quote(keyword,encoding="gb2312"))+"-"+str(page)+".html"
+  File "D:\python\lib\urllib\parse.py", line 785, in quote
+    string = string.encode(encoding, errors)
+UnicodeEncodeError: 'gb2312' codec can't encode character '\u8e07' in position 0: illegal multibyte sequence
+2019-01-11 15:14:12 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.wenkuxiazai.com/search/%B1%AC%D5%A8%D7%B0%D2%A9-60.html> (referer: https://www.wenkuxiazai.com/search/%B1%AC%D5%A8%D7%B0%D2%A9-20.html)
+Traceback (most recent call last):
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 96, in parse
+    url = get_url_data(self.index_url,self.keyword,self.page)
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 21, in get_url_data
+    url=index_url+str(urllib.parse.quote(keyword,encoding="gb2312"))+"-"+str(page)+".html"
+  File "D:\python\lib\urllib\parse.py", line 785, in quote
+    string = string.encode(encoding, errors)
+UnicodeEncodeError: 'gb2312' codec can't encode character '\u8e07' in position 0: illegal multibyte sequence
+2019-01-11 15:14:13 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.wenkuxiazai.com/search/%C9%E8%CE%CA%BD%CC%D1%A7-20.html> (referer: https://www.wenkuxiazai.com/search/%B2%DF%C2%D4%D0%D4%C8%CB%C1%A6%D7%CA%D4%B4%B9%DC%C0%ED-0.html)
+Traceback (most recent call last):
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 96, in parse
+    url = get_url_data(self.index_url,self.keyword,self.page)
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 21, in get_url_data
+    url=index_url+str(urllib.parse.quote(keyword,encoding="gb2312"))+"-"+str(page)+".html"
+  File "D:\python\lib\urllib\parse.py", line 785, in quote
+    string = string.encode(encoding, errors)
+UnicodeEncodeError: 'gb2312' codec can't encode character '\u8e07' in position 0: illegal multibyte sequence
+2019-01-11 15:14:14 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.wenkuxiazai.com/search/%BB%AC%D2%C6%B7%A8-30.html> (referer: https://www.wenkuxiazai.com/search/%B1%AC%D5%A8%D7%B0%D2%A9-10.html)
+Traceback (most recent call last):
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 96, in parse
+    url = get_url_data(self.index_url,self.keyword,self.page)
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 21, in get_url_data
+    url=index_url+str(urllib.parse.quote(keyword,encoding="gb2312"))+"-"+str(page)+".html"
+  File "D:\python\lib\urllib\parse.py", line 785, in quote
+    string = string.encode(encoding, errors)
+UnicodeEncodeError: 'gb2312' codec can't encode character '\u8e07' in position 0: illegal multibyte sequence
+2019-01-11 15:14:18 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.wenkuxiazai.com/search/%B9%DC%C0%ED%D4%CB%D0%D0%C4%A3%CA%BD-460.html> (referer: https://www.wenkuxiazai.com/search/%B9%DC%C0%ED%D4%CB%D0%D0%C4%A3%CA%BD-340.html)
+Traceback (most recent call last):
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 96, in parse
+    url = get_url_data(self.index_url,self.keyword,self.page)
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 21, in get_url_data
+    url=index_url+str(urllib.parse.quote(keyword,encoding="gb2312"))+"-"+str(page)+".html"
+  File "D:\python\lib\urllib\parse.py", line 785, in quote
+    string = string.encode(encoding, errors)
+UnicodeEncodeError: 'gb2312' codec can't encode character '\u8e07' in position 0: illegal multibyte sequence
+2019-01-11 15:14:21 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.wenkuxiazai.com/search/denovo%B2%E2%D0%F2.html> (referer: https://www.wenkuxiazai.com/)
+Traceback (most recent call last):
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 96, in parse
+    url = get_url_data(self.index_url,self.keyword,self.page)
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 21, in get_url_data
+    url=index_url+str(urllib.parse.quote(keyword,encoding="gb2312"))+"-"+str(page)+".html"
+  File "D:\python\lib\urllib\parse.py", line 785, in quote
+    string = string.encode(encoding, errors)
+UnicodeEncodeError: 'gb2312' codec can't encode character '\u8e07' in position 0: illegal multibyte sequence
+2019-01-11 15:14:21 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.wenkuxiazai.com/search/%D3%D0%BF%D7%B3%E6%BB%AF%CA%AF.html> (referer: https://www.wenkuxiazai.com/)
+Traceback (most recent call last):
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\pycharm 2018.3\daima\pachong\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 96, in parse
+    url = get_url_data(self.index_url,self.keyword,self.page)
+  File "c:\users\admini~1\appdata\local\temp\wenkuxiazai-1547186628-2kn716d3.egg\Wenkuxiazai\spiders\wenku_data.py", line 21, in get_url_data
+    url=index_url+str(urllib.parse.quote(keyword,encoding="gb2312"))+"-"+str(page)+".html"
+  File "D:\python\lib\urllib\parse.py", line 785, in quote
+    string = string.encode(encoding, errors)
+UnicodeEncodeError: 'gb2312' codec can't encode character '\u8e07' in position 0: illegal multibyte sequence
